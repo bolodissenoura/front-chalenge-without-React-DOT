@@ -1,4 +1,44 @@
-.cards-section{
-    height: 50vh;
-    background-color: gray;
+.cards-section {
+    height: auto;
+    background-color: #313131;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.card-body {
+    padding-top: 10px;
+    width: 21em;
+    color: #ffff;
+}
+
+.row-card {
+    display: grid;
+    grid-template-columns: 25em 25em 25em;
+}
+
+.swiper-button-next, .swiper-button-prev{
+
+    color: #ffff !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .card-body {
+        padding-top: 10px;
+        width: 21em;
+        color: #ffff;
+    }
+
+    .row-card {
+        display: grid;
+        grid-template-columns: 0px 0px 0px !important;
+    }
+
 }

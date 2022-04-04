@@ -29,7 +29,7 @@
                         <p class="subtitle-home">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         </p>
-                        <a href="">
+                        <a href="#cards-section">
                             <img class="arrow-home" src="./assets/img/arrow-home.png" alt="">
                         </a>
                     </div>
@@ -40,6 +40,9 @@
                         <p class="subtitle-home">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         </p>
+                        <a href="#cards-section">
+                            <img class="arrow-home" src="./assets/img/arrow-home.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -48,17 +51,63 @@
                         <p class="subtitle-home">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         </p>
+                        <a href="#cards-section">
+                            <img class="arrow-home" src="./assets/img/arrow-home.png" alt="">
+                        </a>
                     </div>
                 </div>
-                
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
 
     </section>
 
-    <section class="cards-section">
+    <section class="cards-section" id="cards-section">
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="row-card">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/img/carrousel-pic.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laboriosam sit
+                                    commodi, sint, cupiditate nulla, ut omnis doloremque magnam expedita eaque porro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/img/carrousel-pic.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laboriosam sit
+                                    commodi, sint, cupiditate nulla, ut omnis doloremque magnam expedita eaque porro.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/img/carrousel-pic.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laboriosam sit
+                                    commodi, sint, cupiditate nulla, ut omnis doloremque magnam expedita eaque porro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </section>
 
 
@@ -72,13 +121,30 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            loop: true,loopFillGroupWithBlank: true,
-          },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                loop: true, loopFillGroupWithBlank: true,
+            },
         });
-      </script>
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
