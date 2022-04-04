@@ -8,7 +8,15 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../assets/img/home-wpp.png');
     justify-content: center;
     text-align: center;
+}
+.home1 {
+    background-image: url('../assets/img/home-wpp.png');
+}
+.home2 {
+    background-image: url('../assets/img/home-wpp2.png');
+}
+.home3 {
+    background-image: url('../assets/img/home-wpp3.png');
 }

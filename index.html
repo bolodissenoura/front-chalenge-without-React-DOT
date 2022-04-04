@@ -11,17 +11,66 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <title>Dot Challenge</title>
 </head>
 
 <body>
-    <section class="home">
-        <h1 class="title-home">Hello World</h1>
-        <p class="subtitle-home">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </p>
+    <section class="">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="home home1">
+                        <h1 class="title-home">Hello World</h1>
+                        <p class="subtitle-home">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="home home2">
+                        <h1 class="title-home">Hello World</h1>
+                        <p class="subtitle-home">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="home home3">
+                        <h1 class="title-home">Hello World</h1>
+                        <p class="subtitle-home">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
     </section>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            loop: true,loopFillGroupWithBlank: true,
+          },
+        });
+      </script>
 </body>
 
 </html>

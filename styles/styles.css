@@ -1,7 +1,8 @@
 /* Colors Theme and Design on 
 FIGMA DANIEL : https://www.figma.com/file/FWGpGvtKkDB7FE1XTSDXMq/Challenge-Front?node-id=0%3A1 */
 
-h1, p {
+h1,
+p {
     font-family: sans-serif;
 }
 
@@ -12,3 +13,17 @@ h1 {
 p {
     font-weight: 500;
 }
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #ffffff !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    padding: 2px;
+    background-color: #4D6128 !important;
+  }
+
