@@ -1,0 +1,12 @@
+/* green = #3e4f1a
+dark green = #213800
+dark gray = #313131
+gray = #303030
+light gray = #707070 */
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    color: #3e4f1a;
+}
