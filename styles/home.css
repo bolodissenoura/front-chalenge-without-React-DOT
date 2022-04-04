@@ -20,3 +20,20 @@
 .home3 {
     background-image: url('../assets/img/home-wpp3.png');
 }
+
+.arrow-home{
+    padding-top: 20px;
+    animation: slidein 1s linear infinite ;
+    width: 30px;
+    
+}
+@keyframes slidein {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(0px, 10px);
+    }
+  }
