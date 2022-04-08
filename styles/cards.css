@@ -19,6 +19,18 @@
     color: #ffff;
 }
 
+.card-title{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.card-subtitle{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
 .row-card {
     display: grid;
     grid-template-columns: 25em 25em 25em;
@@ -34,6 +46,9 @@
         padding-top: 10px;
         width: 21em;
         color: #ffff;
+    }
+    .card {
+        padding-left: 20px;
     }
 
     .row-card {
