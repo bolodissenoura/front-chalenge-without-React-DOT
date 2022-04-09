@@ -1,0 +1,74 @@
+.form-section {
+    height: 80vh;
+    background-color: #707070;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    padding: 100px;
+}
+
+.input-tel,
+.input-nome,
+.input-msg,
+.input-mail {
+    background-color: #bfbfbf;
+}
+
+.input-nome,
+.input-msg {
+    padding: 15px;
+    width: 90%;
+    border: 0;
+    border-radius: 20px;
+}
+
+.input-mail,
+.input-tel {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 43%;
+    border: 0;
+    border-radius: 20px;
+}
+
+.input-msg {
+    height: 20vh;
+}
+
+input:focus~.floating-label,
+input:not(:focus):valid~.floating-label {
+    top: 8px;
+    bottom: 10px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .input-nome,
+    .input-msg,
+    .input-tel,
+    .input-mail {
+        padding: 15px;
+        margin-left: -81px;
+        width: 300px;
+        border: 0;
+        border-radius: 20px;
+    }
+
+}

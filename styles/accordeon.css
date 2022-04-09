@@ -1,5 +1,5 @@
 .accordeon-section {
-    height: 100vh;
+    height: auto;
     background-color: #bfbfbf;
 }
 
@@ -30,10 +30,17 @@
     transition: 0.4s;
 }
 
+.acd-subtitle{
+    padding: 100px;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: black;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -49,6 +56,10 @@
 
     .accordeon-pd {
         padding: 40px;
+    }
+
+    .acd-subtitle{
+        padding: 10px;
     }
 
 }
