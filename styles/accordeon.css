@@ -1,0 +1,54 @@
+.accordeon-section {
+    height: 100vh;
+    background-color: #bfbfbf;
+}
+
+.accordeon-pd {
+    width: 80%;
+    padding: 100px;
+}
+
+.border{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.border-bt{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.accordion {
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .accordeon-pd {
+        padding: 40px;
+    }
+
+}
