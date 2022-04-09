@@ -3,8 +3,7 @@
     background-color: #707070;
 }
 
-.form {
-    width: 80%;
+form {
     margin: 0 auto;
     height: 100px;
     padding: 100px;
@@ -57,6 +56,21 @@ input:not(:focus):valid~.floating-label {
     transition: 0.2s ease all;
 }
 
+.btn-enviar {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    color: #000;
+    border: 0;
+    margin-top: 15px;
+    margin-left: 42%;
+}
+
+.btn-enviar:hover {
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 500px) {
 
@@ -69,6 +83,10 @@ input:not(:focus):valid~.floating-label {
         width: 300px;
         border: 0;
         border-radius: 20px;
+    }
+
+    .btn-enviar {
+        margin-left: 18%;
     }
 
 }
